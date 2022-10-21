@@ -1,0 +1,137 @@
+#cabecera{
+
+    background-color: black;
+    width: 578px;
+    height: 100px;
+    position: absolute;
+    left: 4.5%;
+
+}
+
+#nav1{
+
+    background-color: bisque;
+    width: 70px;
+    height: 24px;
+    position: absolute;
+    left: 430px;
+    top: 74px;
+
+}
+
+#nav2{
+
+    background-color: bisque;
+    width: 70px;
+    height: 24px;
+    position: absolute;
+    left: 356.5px;
+    top: 74px;
+    
+}
+
+#nav3{
+
+    background-color: bisque;
+    width: 70px;
+    height: 24px;
+    position: absolute;
+    left: 284px;
+    top: 74px;
+    
+}
+
+#nav4{
+
+    background-color: bisque;
+    width: 70px;
+    height: 24px;
+    position: absolute;
+    left: 503px;
+    top: 74px;
+    
+}
+
+#cabeceraimg{
+
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+
+#contenedor{
+
+    background-color: black;
+    width: 578px;
+    height: 780px;
+    position: absolute;
+    top: 115px;
+    left: 4.5%;
+    
+}
+
+#buscador{
+
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+
+}
+
+#conteimg1{
+
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+
+}
+
+#conteimg2{
+
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 25px;
+    top: 300px;
+
+}
+
+#conteimg3{
+
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 25px;
+    top: 500px;
+
+}
+
+#conteform{
+
+    background-color: yellow;
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 255px;
+    top: 25px;
+
+}
+
+#piedepagina1{
+
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 720px;
+
+}

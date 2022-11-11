@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perimetro de un Cuadrado</title>
+</head>
+<body>
+    <h1>Perimetro de un Cuadrado</h1>
+    <form action="">
+        <label for="">Ingrese un Lado</label>
+        <input type="number" name="" id="lado">
+        <input type="button" name="" value="Enviar" onclick="calcular()">
+        <input type="reset" name="" value="Cancelar">
+    </form>
+
+    <p id="respuesta"></p>
+</body>
+    <script>
+        function calcular(){
+            var respuenlace = document.getElementById("respuesta");
+            var respuenlace2 = document.getElementById("lado").value; 
+
+            var sol = 4*parseInt(a);
+            respuenlace.innerHTML = sol;
+        }
+    </script>
+
+</html>

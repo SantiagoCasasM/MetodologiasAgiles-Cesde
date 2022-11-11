@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 5</title>
+</head>
+<body>
+    <form action="">
+        <h1>Login</h1>
+        <label for="">Usuario</label>
+        <input type="text" id="user">
+
+        <label for="">Contraseña</label>
+        <input type="text" id="pass">
+
+        <input type="button" value="Enviar" onclick="calcular()">
+        <input type="reset" value="Eliminar">
+
+    </form>
+</body>
+    <p id="registrouser"></p>
+    <p id="registropass"></p>
+    <script>
+        function calcular(){
+            var registrouserx1 = document.getElementById("registrouser");
+            var registropassx1 = document.getElementById("registropass");
+
+            const user = "admin";
+            const pass = "12345";
+
+            if(user == "admin" && pass == "12345"){
+                document.write("Ingreso admitido")
+            }else{
+                document.write("Ingreso Erroneo")
+            }
+        }
+    </script>
+</html>

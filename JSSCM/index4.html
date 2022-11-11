@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 4</title>
+</head>
+<body>
+    
+    <form action="">
+        <h1>Permiso de ingreso</h1>
+        <label for="">Nombre</label>
+        <input type="text" id="name">
+
+        <label for="">Edad</label>
+        <input type="number" id="age">
+
+        <input type="button" value="Enviar" onclick="calcular()">
+        <input type="reset" value="Cancelar">
+
+    </form>
+</body>
+    <p id="regitro"></p>
+    <script>
+        function calcular(){
+            var registrox1 = document.getElementById("registro");
+            var registrox2 = document.getElementById("age").value;
+
+            if(registrox2 < 17){
+                alert("No puede ingresar, es menor de edad")
+            }else{
+                alert("Es mayor de edad, permitido")
+            }
+
+            registrox1.innerHTML = registrox2;
+        }
+    </script>
+</html>

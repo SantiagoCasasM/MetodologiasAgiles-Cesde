@@ -20,17 +20,18 @@
 
     </form>
 </body>
-    <p id="registrouser"></p>
-    <p id="registropass"></p>
+    <p id="respuesta"></p>
+    
     <script>
         function calcular(){
-            var registrouserx1 = document.getElementById("registrouser");
-            var registropassx1 = document.getElementById("registropass");
+            var respuestax1 = document.getElementById("respuesta");
+            var registrouserx1 = document.getElementById("user").value;
+            var registropassx1 = document.getElementById("pass").value;
 
             const user = "admin";
             const pass = "12345";
 
-            if(user == "admin" && pass == "12345"){
+            if(registrouserx1 == "admin" && registropassx1 == "12345"){
                 document.write("Ingreso admitido")
             }else{
                 document.write("Ingreso Erroneo")
